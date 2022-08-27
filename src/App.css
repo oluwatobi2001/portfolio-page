@@ -1,0 +1,27 @@
+* {
+   font-family: Helvetica, sans-serif;
+   margin: 0;
+}
+
+.bg-container{
+   background-color: #1c1c1c;
+}
+@media screen and (max-width: 810px) {
+   * {
+      font-family: Helvetica, sans-serif;
+   margin: 0;
+   background-color:  #1c1c1c;
+} 
+   }
+  
+
+@media screen and (max-width: 450px) {
+   * {
+      font-family: Helvetica, sans-serif;
+   margin: 0;
+   align-items: center;
+   justify-content: center;
+
+   background-color:  #1c1c1c;
+} 
+}

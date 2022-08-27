@@ -1,0 +1,309 @@
+.testimonial-container {
+    width: 80%;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    color: white;
+    border-radius: 30px;
+    box-shadow:rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+
+.header {
+    display: flex;
+    
+    flex-direction: row;
+
+}
+.header-text {
+    flex: 1;
+    color: tomato;
+
+    text-align: center;
+    margin: 0 auto;
+    font-size: 30px;
+    justify-content: center; 
+     margin: 30px;
+   padding: 10px;
+}.line {
+    display: flex;
+    flex: 1;
+    width: 20%;
+    height: 10px;
+    align-items: flex-start;
+    margin: auto;
+
+ margin-left: 20px;
+    background-color: tomato;
+    border-radius: 20px;
+    
+}
+
+.line-1 {
+    flex: 1;
+    width: 40%;
+    height: 10px;
+    align-items: flex-start;
+    margin: auto;
+    margin-right: 30px ;
+    background-color: tomato;
+    border-radius: 20px;
+   
+    
+    
+}
+.Testimonial-page {
+margin: 0 auto;
+margin: 20px;
+}
+.testimonials {
+display: flex;
+width: 100%;
+margin: 0 auto;
+text-align: center;
+align-items: center;
+justify-content: center;
+flex-wrap: wrap;
+
+}
+.testimonial-1 {
+   
+    width: 40%;
+    margin: 0 auto;
+    font-size: 20px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: 30px;
+    background-color: rgba(255, 255, 255, 0.103);
+    border: 1px solid white;
+    cursor: pointer;
+    border-radius: 25px;
+ 
+}
+.testimonial-1:hover {
+    transform: scale(1.07);
+    transition: 1s ease-out;
+}
+
+p { margin: 0 auto;
+    padding: 20px;
+    margin: 20px;
+    line-height: 0.7cm;
+   
+}
+.client-name {
+    font-size: 25px;
+    font-weight: 800;
+    color: tomato;
+}
+
+@media screen and (max-width: 810px) {
+    .testimonial-container {
+        width: 80%;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+        color: white;
+        border-radius: 30px;
+        box-shadow:rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    }
+    
+    
+    .header {
+        display: flex;
+        
+        flex-direction: row;
+    
+    }
+    .header-text {
+        flex: 1;
+        color: tomato;
+    
+        text-align: center;
+        margin: 0 auto;
+        font-size: 28px;
+        justify-content: center; 
+         margin: 25px;
+       padding: 10px;
+    }.line {
+        display: flex;
+        flex: 1;
+        width: 20%;
+        height: 10px;
+        align-items: flex-start;
+        margin: auto;
+    
+     margin-left: 20px;
+        background-color: tomato;
+        border-radius: 20px;
+        
+    }
+    
+    .line-1 {
+        flex: 1;
+        width: 40%;
+        height: 10px;
+        align-items: flex-start;
+        margin: auto;
+        margin-right: 30px ;
+        background-color: tomato;
+        border-radius: 20px;
+       
+        
+        
+    }
+    .Testimonial-page {
+    margin: 0 auto;
+    margin: 20px;
+    }
+    .testimonials {
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+    }
+    .testimonial-1 {
+       
+        width: 70%;
+        margin: 0 auto;
+        font-size: 20px;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        margin: 25px;
+        background-color: rgba(255, 255, 255, 0.103);
+        border: 1px solid white;
+        cursor: pointer;
+        border-radius: 25px;
+     
+    }
+    .testimonial-1:hover {
+        transform: scale(1.04);
+        transition: 1s ease-out;
+    }
+    
+    p { margin: 0 auto;
+        padding: 20px;
+        background-color: transparent;
+        margin: 20px;
+        line-height: 0.7cm;
+       
+    }
+    .client-name {
+        font-size: 23px;
+        background-color: transparent;
+        font-weight: 700;
+        color: tomato;
+    }
+    
+}
+
+@media screen and (max-width: 450px) {
+    .testimonial-container {
+        width: 80%;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+        color: white;
+        border-radius: 30px;
+        box-shadow:rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    }
+    
+    
+    .header {
+        display: flex;
+        
+        flex-direction: row;
+    
+    }
+    .header-text {
+        flex: 1;
+        color: tomato;
+    
+        text-align: center;
+        margin: 0 auto;
+        font-size: 28px;
+        justify-content: center; 
+         margin: 25px;
+       padding: 10px;
+    }.line {
+        display: flex;
+        flex: 1;
+        width: 20%;
+        height: 10px;
+        align-items: flex-start;
+        margin: auto;
+    
+     margin-left: 20px;
+        background-color: tomato;
+        border-radius: 20px;
+        
+    }
+    
+    .line-1 {
+        flex: 1;
+        width: 40%;
+        height: 10px;
+        align-items: flex-start;
+        margin: auto;
+        margin-right: 30px ;
+        background-color: tomato;
+        border-radius: 20px;
+       
+        
+        
+    }
+    .Testimonial-page {
+    margin: 0 auto;
+    margin: 20px;
+    }
+    .testimonials {
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+    }
+    .testimonial-1 {
+       
+        width: 100%;
+        margin: 0 auto;
+        font-size: 20px;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        margin: 20px;
+        background-color: rgba(111, 175, 95, 0.836);
+        border: 1px solid white;
+        cursor: pointer;
+        border-radius: 25px;
+     
+    }
+    .testimonial-1:hover {
+        transform: scale(1.04);
+        transition: 1s ease-out;
+    }
+    
+    p { margin: 0 auto;
+        padding: 10px;
+        margin: 15px;
+        background-color: transparent;
+        line-height: 0.7cm;
+       
+    }
+    .client-name {
+        font-size: 20px;
+        background-color: transparent;
+        font-weight: 700;
+        color: tomato;
+    }
+    
+}

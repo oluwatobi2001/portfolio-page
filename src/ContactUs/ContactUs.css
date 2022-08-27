@@ -1,0 +1,458 @@
+.container-contact {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+   
+    border-radius: 30px;
+    text-align: center;
+    color: white;
+    box-shadow:rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.header {
+    display: flex;
+    
+    flex-direction: row;
+
+}
+.header:hover{
+    
+        transform: scale(1.07);
+        transition: 1s ease-out;
+    
+    
+}
+.header-text {
+    flex: 1;
+    color: tomato;
+
+    text-align: center;
+    margin: 0 auto;
+    font-size: 30px;
+    justify-content: center; 
+     margin: 30px;
+   padding: 10px;
+}.line {
+    display: flex;
+    flex: 1;
+    width: 20%;
+    height: 10px;
+    align-items: flex-start;
+    margin: auto;
+
+ margin-left: 20px;
+    background-color: tomato;
+    border-radius: 20px;
+    
+}
+
+.line-1 {
+    flex: 1;
+    width: 40%;
+    height: 10px;
+    align-items: flex-start;
+    margin: auto;
+    margin-right: 30px ;
+    background-color: tomato;
+    border-radius: 20px;
+   
+    
+    
+}
+.content > p {
+    text-align: center;
+    font-size: 25px;
+
+}
+.icons {
+    font-size: 30px;
+}
+.form-section {
+    margin: 0 auto;
+    width: 80%;
+}
+.form-section > p {
+   padding: 10px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+ border-radius: 20px;
+ 
+    border: 1px solid tomato;
+}
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: black;
+
+}
+
+.name-section , .email-section, .message-section {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+   
+    align-items: center;
+    justify-content: center;
+}
+label {
+    width: 80%;
+    font-size: 20px;
+    color: tomato;
+    
+
+}
+input {
+    width: 70%;
+    height: 30px;
+    padding: 10px;
+font-size: 20px;
+    border-radius: 30px;
+    color: #000;
+}
+textarea {
+    width: 70%;
+    height: 120px;
+    margin: 20px;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 10px;
+
+}
+button {
+    width:  25%;
+
+    display: flex;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    justify-content: center;
+    align-self: center;
+
+cursor: pointer;
+}
+.submit-button {
+    padding-top: 15px;
+    text-align: center;
+    font-size: 20px;
+    border-radius: 25px;
+    height: 50px;
+    border-style: none;
+}
+
+@media screen and (max-width: 810px) {
+    .container-contact {
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+       
+        border-radius: 30px;
+        text-align: center;
+        color: white;
+        box-shadow:rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    }
+    .header {
+        display: flex;
+        
+        flex-direction: row;
+    
+    }
+    .header:hover{
+        
+            transform: scale(1.04);
+            transition: 1s ease-out;
+        
+        
+    }
+    .header-text {
+        flex: 1;
+        color: tomato;
+    
+        text-align: center;
+        margin: 0 auto;
+        font-size: 27px;
+        justify-content: center; 
+         margin: 25px;
+       padding: 10px;
+    }.line {
+        display: flex;
+        flex: 1;
+        width: 20%;
+        height: 8px;
+        align-items: flex-start;
+        margin: auto;
+    
+     margin-left: 20px;
+        background-color: tomato;
+        border-radius: 20px;
+        
+    }
+    
+    .line-1 {
+        flex: 1;
+        width: 40%;
+        height: 10px;
+        align-items: flex-start;
+        margin: auto;
+        margin-right: 30px ;
+        background-color: tomato;
+        border-radius: 20px;
+       
+        
+        
+    }
+    .content > p {
+        text-align: center;
+        font-size: 20px;
+    
+    }
+    .icons {
+        font-size: 30px;
+    }
+    .form-section {
+        margin: 0 auto;
+        width: 80%;
+    }
+    .form-section > p {
+       padding: 10px;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        font-size: 20px;
+     border-radius: 20px;
+     
+        border: 1px solid tomato;
+    }
+    .contact-form {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin: 0 auto;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        color: black;
+    
+    }
+    
+    .name-section , .email-section, .message-section {
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+       
+        align-items: center;
+        justify-content: center;
+    }
+    label {
+        width: 80%;
+        font-size: 18px;
+        color: tomato;
+        
+    
+    }
+    input {
+        width: 70%;
+        height: 28px;
+        padding: 10px;
+    font-size: 18px;
+        border-radius: 30px;
+        background-color: white;
+        color: #000;
+    }
+    textarea {
+        background-color: white;
+        width: 70%;
+        height: 120px;
+        margin: 20px;
+        padding: 10px;
+        font-size: 18px;
+        border-radius: 10px;
+    
+    }
+    button {
+        width:  25%;
+    
+        display: flex;
+        margin: 0 auto;
+        margin-bottom: 30px;
+        justify-content: center;
+        align-self: center;
+    
+    cursor: pointer;
+    }
+    .submit-button {
+        padding-top: 15px;
+        text-align: center;
+        font-size: 18px;
+        border-radius: 25px;
+        height: 50px;
+        background-color: white;
+        border-style: none;
+    }
+    .tele {
+        background-color: transparent;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .container-contact {
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+       
+        border-radius: 30px;
+        text-align: center;
+        color: white;
+        box-shadow:rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    }
+    .header {
+        display: flex;
+        
+        flex-direction: row;
+    
+    }
+    .header:hover{
+        
+            transform: scale(1.02);
+            transition: 1s ease-out;
+        
+        
+    }
+    .header-text {
+        flex: 1;
+        color: tomato;
+    
+        text-align: center;
+        margin: 0 auto;
+        font-size: 20px;
+        justify-content: center; 
+         margin: 15px;
+       padding: 5px;
+    }.line {
+        display: flex;
+        flex: 1;
+        width: 60%;
+        height: 10px;
+        align-items: flex-start;
+        margin: auto;
+    
+     margin-left: 10px;
+        background-color: tomato;
+        border-radius: 20px;
+        
+    }
+    
+    .line-1 {
+        flex: 1;
+        width: 60%;
+        height: 10px;
+        align-items: flex-start;
+        margin: auto;
+        margin-right: 20px ;
+        background-color: tomato;
+        border-radius: 20px;
+       
+        
+        
+    }
+    .content > p {
+        text-align: center;
+        font-size: 20px;
+    
+    }
+    .icons {
+        font-size: 26px;
+    }
+    .form-section {
+        margin: 0 auto;
+        width: 90%;
+    }
+    .form-section > p {
+       padding: 10px;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        font-size: 20px;
+     border-radius: 20px;
+     
+        border: 1px solid tomato;
+    }
+    .contact-form {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin: 0 auto;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        color: black;
+    
+    }
+    
+    .name-section , .email-section, .message-section {
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+       
+        align-items: center;
+        justify-content: center;
+    }
+    label {
+        width: 80%;
+        font-size: 18px;
+        color: tomato;
+        
+    
+    }
+    input {
+        width: 90%;
+        height: 25px;
+        padding: 12px;
+    font-size: 18px;
+        border-radius: 30px;
+        color: #000;
+    }
+    textarea {
+        width: 85%;
+        height: 100px;
+        margin-bottom: 20px;
+        padding: 10px;
+        font-size: 20px;
+        border-radius: 10px;
+    
+    }
+    button {
+        background-color: white;
+        width:  40%;
+    
+        display: flex;
+        margin: 0 auto;
+        padding: 10px;
+        margin-bottom: 30px;
+        justify-content: center;
+        align-self: center;
+    
+    cursor: pointer;
+    }
+    svg {
+        background-color: transparent;
+    }
+    .submit-button {
+        padding-top: 15px;
+        text-align: center;
+        font-size: 20px;
+        font-weight: 900;
+        border-radius: 25px;
+        height: 50px;
+        background-color: white;
+        color: black;
+        border-style: none;
+    }
+    .tele {
+        background-color: transparent;
+    }
+}
